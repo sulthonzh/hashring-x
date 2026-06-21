@@ -3,12 +3,40 @@
   "version": "1.0.0",
   "description": "Zero-dependency consistent hashing for Node.js — distribute keys across nodes with minimal redistribution on topology changes",
   "main": "index.js",
-  "bin": { "hashring-x": "./cli.js" },
+  "bin": {
+    "hashring-x": "./cli.js"
+  },
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["consistent", "hashing", "hash", "ring", "sharding", "partitioning", "load-balancing", "distributed", "cache"],
+  "keywords": [
+    "consistent",
+    "hashing",
+    "hash",
+    "ring",
+    "sharding",
+    "partitioning",
+    "load-balancing",
+    "distributed",
+    "cache"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/hashring-x" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/hashring-x.git"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/hashring-x#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/hashring-x/issues"
+  }
 }
